@@ -8,5 +8,7 @@ public static void main(String[] args) {
 	double price = sc.nextDouble();
 	double  total = quantity*price;
 	System.out.println("The total price is " +total );
+	sc.close();
 }
 }
+
